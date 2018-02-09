@@ -1,0 +1,105 @@
+body {
+	background-color: #eceff0;
+}
+
+body,
+input {
+	font: 1em "Open Sans", sans-serif;
+	color: #363639;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+  -webkit-box-shadow: 0px 3px 26px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 3px 26px 0px rgba(204,204,204,1);
+  box-shadow: 0px 3px 26px 0px rgba(204,204,204,1);
+}
+
+
+.nav {
+	background: #4ECDC4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* Lista */
+
+
+.todo-list {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	margin: 20px;
+	max-width: 340px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+.todo-list .todo-title {
+	font-family: "Shadows Into Light Two", cursive;
+	margin: 0 0 10px 0;
+}
+
+.todo-list a {
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+/* Permbajtja */
+
+.todo-items {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.todo-items li:hover .send-todo {
+	opacity: 1;
+}
+
+.todo-items li,
+.add-item .todo-input {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+}
+
+.todo-input {
+	width: 100%;
+}
+.todo-input:focus {
+	outline: none;
+}
+
+.todo-items .todo-item.done {
+	text-decoration: line-through;
+}
+
+/* Done */
+.send-todo {
+	display: inline-block;
+	font-size: .7em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+}
+
+/* Submit */
+
+.submit {
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
